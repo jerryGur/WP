@@ -77,7 +77,7 @@ h2.title {
 	font-weight: 700;
 }
 
-.promo .promo_btn {
+.promo .promo_btn, .gift .gift_btn {
 	display: block;
 	margin: 73px auto;
 	width: 313px;
@@ -93,6 +93,10 @@ h2.title {
 	line-height: 24px;
 	text-transform: uppercase;
 	cursor: pointer;
+}
+
+.gift .gift_btn {
+	margin-top: 51px;
 }
 
 .more .more_text {
@@ -218,4 +222,44 @@ h2.title {
 
 .finish .finish_wrapper .finish_item {
 	width: 204px;
+}
+
+.finish .finish_wrapper .finish_item .finish_round {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	background-color: #B4E2FF;
+	width: 115px;
+	height: 115px;
+	border-radius: 100%;
+}
+
+.finish .finish_wrapper .finish_item .finish_descr {
+	margin-top: 25px;
+	color: #EFEFEF;
+	text-align: center;
+	font-family: 'Roboto';
+	font-weight: 300;
+	font-size: 17px;
+}
+
+.gift {
+	background-color: #EFEFEF;
+	min-height: 631px;
+}
+
+.gift .gift_img {
+	display: block;
+	margin: 0 auto;
+	padding-top: 88px;
+}
+
+.gift .gift_descr {
+	padding-top: 45px;
+	color: #252525;
+	font-family: 'Roboto';
+	font-weight: 400;
+	font-size: 30px;
+	text-align: center;
 }
