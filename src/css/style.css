@@ -116,7 +116,7 @@ h2.title {
 	padding: 85px 0 75px 0;
 }
 
-.waiting .waiting_header {
+.waiting .waiting_header, .finish .finish_header {
 	color: #252525;
 	font-family: 'Roboto';
 	font-weight: 400;
@@ -125,7 +125,11 @@ h2.title {
 	text-align: center;
 }
 
-.waiting .waiting_divider {
+.finish .finish_header {
+	color: #FFFFFF;
+}
+
+.waiting .waiting_divider, .finish .finish_divider {
 	background-color: #F9BF3B;
 	width: 220px;
 	height: 4px;
@@ -200,3 +204,18 @@ h2.title {
 	z-index: -1;
 }
 
+.finish {
+	min-height: 447px;
+	padding: 86px 0 79px 0;
+	background: url('../img/bg/bgsecond.png') center center/cover no-repeat;
+}
+
+.finish .finish_wrapper {
+	margin-top: 41px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.finish .finish_wrapper .finish_item {
+	width: 204px;
+}
