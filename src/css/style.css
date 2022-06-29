@@ -303,3 +303,29 @@ h2.title {
 	line-height: 20px;
 	text-transform: uppercase;
 }
+
+.footer {
+	min-height: 169px;
+	background-color: #1A1A1A;;
+	text-align: center;
+}
+
+.footer .footer_wrapper {
+	margin: 0 auto;
+	width: 407px;
+	padding-top: 57px;
+	text-align: center;
+}
+
+.footer .footer_support, .footer_confidence, .footer_call {
+	color: #888888;
+	font-family: 'Roboto';
+	font-weight: 300;
+	font-size: 15px;
+	line-height: 21px;
+}
+
+.footer .footer_wrapper span {
+	color: #888888;
+}
+
